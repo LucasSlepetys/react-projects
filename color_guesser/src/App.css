@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.color-container {
+  width: 300px;
+  height: 200px;
+}
+
+.display {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.color-name {
+  background: black;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.correct {
+  background: green;
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px
+}
+
+.wrong {
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px
+}
